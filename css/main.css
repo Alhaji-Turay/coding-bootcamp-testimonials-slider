@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg {
+    position: absolute;
+    top: 30px;
+    max-width: 670px;
+    right: 0px;
+    left: 42%;
+    height: auto;
+    z-index: -1;
+  }
+
+    .quotes {
+        position: absolute;
+        top: 27%;
+        max-width: 80px;
+        right: 0;
+        left: 20%;
+        height: auto;
+    }
+
+
+  .curve {
+    position: absolute;
+    top: 78%;
+    max-width: 610px;
+    right: 0;
+    left: 0;
+    height: auto;
+  }
+
+.container {
+    display: flex;
+    padding: 0 11em;
+    padding-top: 6.875em;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 2rem;
+   color: #3a364d;
+   font-weight: 300;
+   max-width: 625px;
+   line-height: 1.4;
+   z-index: 1;
+}
+
+span {
+    color: #3a364d;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.two {
+    font-size: 1rem;
+    margin-left: 1em;
+    color: hsl(240, 18%, 77%)
+}
+
+.img-container > img {
+    width: 500px;
+    position: relative;
+    right: 7.5%;
+   z-index: -1;
+}
+
